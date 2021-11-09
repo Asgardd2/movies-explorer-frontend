@@ -1,0 +1,25 @@
+.moviesCardList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moviesCardList__films {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0 70px 0 70px; 
+}
+
+
+.moviesCardList__button {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    width: 320px;
+    height: 36px;
+    margin: 61px 0 89px 0;
+    background-color: #F9F9F9;
+    border-radius: 6px;
+    border: 0;
+}
