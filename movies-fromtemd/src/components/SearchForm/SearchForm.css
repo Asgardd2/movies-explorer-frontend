@@ -42,7 +42,6 @@
 }
 
 .searchform__form {
-    margin: 80px 69px 0 69px;
     box-sizing: border-box;
     padding-left: 22px;
     padding-right: 22px;
@@ -84,4 +83,27 @@
     font-weight: 400;
     line-height: 18px;
     margin: 0 0 0 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .searchform__form {
+        margin: 80px 30px 0 30px;
+    }
+
+
+}
+
+@media screen and (min-width: 769px) {
+    .searchform__form {
+        margin: 80px 69px 0 69px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .searchform__form {
+        margin: 80px 14px 0 14px;
+    }
 }

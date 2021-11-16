@@ -9,26 +9,99 @@
 
 }
 
-.promo__title {
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 58px;
-    grid-column: 1;
-    grid-row: 1;
-    padding: 0;
-    margin: 0;
-    max-width: 640px;
+@media screen and (max-width: 768px) {
+    .promo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top:140px
+      }
+
+    .promo__logo {
+        width: 310px;
+        height: 304px;
+    }
+
+    .promo__title {
+        text-align: center;
+        margin: 48px 0 0 0;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .promo__subtitle {
+        width: 260px;
+        text-align: center;
+        margin: 22px 0 0 0;
+    }
+
+    .promo__button {
+        margin: 102px 0 86px 0;
+    }
 }
+
+
+@media screen and (min-width: 769px) {
+    .promo__title {
+        font-size: 50px;
+        line-height: 58px;
+        grid-column: 1;
+        grid-row: 1;
+        padding: 0;
+        margin: 0;
+        max-width: 640px;
+    }
+
+    .promo__subtitle {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 0;
+        margin: 36px 0 0 0;
+        height: 32px;
+    }
+
+    .promo__button {
+        margin: 146px 0 0 0;
+    }
+}
+.promo__title {
+
+    font-weight: 400;
+}
+
+
+
+
+  @media screen and (min-width: 769px) and (max-width: 868px) {
+    .promo__title {
+        font-size: 35px;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    .promo__logo{
+        width: 210px;
+        height: 206px;
+    }
+    .promo {
+        padding: 70px 0 0 0;
+    }
+    .promo__title {
+        font-size: 29px;
+        width: 300px;
+    }
+    .promo__button {
+        margin: 80px 0 30px 0;
+    }
+
+}
+
 
 .promo__subtitle {
     font-size: 13px;
     line-height: 16px;
     font-weight: 400;
-    grid-column: 1;
-    grid-row: 2;
-    padding: 0;
-    margin: 36px 0 0 0;
-    height: 32px;
+   
 }
 
 .promo__button {
@@ -39,16 +112,28 @@
     grid-row: 3;
     width: 129px;
     height: 36px;
-    margin: auto 0 auto 0;
     background-color: transparent;
     font-size: 12px;
     line-height: 16px;
     font-weight: 500;
-    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     border-radius: 3px;
     border: 1px solid #000000;
-    margin: 146px 0 0 0;
+
+    
+}
+
+
+.promo__link:hover{
+    opacity: .6;
+}
+
+.promo__link {
+    text-decoration: none;
+    color: #000000;
 }
 
 .promo__logo {

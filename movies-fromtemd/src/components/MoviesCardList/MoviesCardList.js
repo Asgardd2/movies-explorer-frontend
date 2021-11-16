@@ -104,8 +104,9 @@ function MoviesCardList(props) {
            duration="1ч 7м"/>
             </div>
             )}
-
+          <div className="moviesCardList__more">
            <button className="moviesCardList__button">Ещё</button>
+           </div>
 
     </section>
     

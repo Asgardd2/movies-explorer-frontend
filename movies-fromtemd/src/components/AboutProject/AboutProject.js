@@ -8,13 +8,13 @@ function aboutProject(props) {
       
         <h2 className="aboutProject__title">О проекте</h2>
         <ul className="aboutProject__table">
-          <li className="aboutProject__descr aboutProject__descr_type_title">
+          <li className="aboutProject__descr_type_title">
             Дипломный проект включал 5 этапов
           </li>
-          <li className="aboutProject__descr aboutProject__descr_type_title">
+          <li className="aboutProject__descr_type_title aboutProject__descr_mobile_second-title">
             На выполнение диплома ушло 5 недель
           </li>
-          <li className="aboutProject__descr">
+          <li className="aboutProject__descr aboutProject__descr_mobile_second-row">
             Составление плана, работу над бэкендом, вёрстку, добавление функциональности и финальные доработки.
           </li>
           <li className="aboutProject__descr">

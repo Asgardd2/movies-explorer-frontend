@@ -10,13 +10,13 @@ function footer(props) {
                 <p className="footer__year">Ⓒ 2020</p>
                 <ul className="footer__sites">
                     <li className="footer__site">
-                        <a className="footer__link" href="#">Яндекс.Практикум</a>
+                        <a className="footer__link" href="https://practicum.yandex.ru/">Яндекс.Практикум</a>
                     </li>
                     <li className="footer__site">
-                        <a className="footer__link" href="#">Github</a>
+                        <a className="footer__link" href="https://github.com/">Github</a>
                     </li>
                     <li className="footer__site">
-                        <a className="footer__link" href="#">Facebook</a>
+                        <a className="footer__link" href="https://www.facebook.com/">Facebook</a>
                     </li>
                 </ul>
             </div>

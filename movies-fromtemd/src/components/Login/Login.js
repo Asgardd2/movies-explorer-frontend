@@ -5,11 +5,13 @@ import headerLogo from "../../images/header-logo.svg";
 function Login() {
   return (
     <section className="login">
-       <img
+ 
+
+<Link to='/' className="login__logo-link">       <img
         src={headerLogo}
         alt="Логотип сервиса по фильмам"
         className="login__logo"
-      />
+      /> </Link>
        <form name="login" className="login__form" >
        <h2 className="login__title">Рады видеть!</h2>
        <p className="login__subtitle">E-mail</p>
@@ -35,7 +37,7 @@ function Login() {
 
         <div className="login__signup">
           <p className="login__signup-question">Уже зарегистрированы?</p>
-          <Link to="/sign-in" className="login__link">
+          <Link to="/signup" className="login__link">
             Регистрация
           </Link>
         </div>

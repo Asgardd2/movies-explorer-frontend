@@ -13,6 +13,23 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .page404__title {
+        margin-top: 408px;  
+    }
+
+    .page404__button {
+        margin-bottom: 222px;
+    }
+}
+
+  
+@media screen and (min-width: 769px) {
+    .page404__title {
+        margin-top: 246px;  
+    }
+}
+
 .page404__subtitle {
     font-weight: 400;
     font-size: 16px;
@@ -28,4 +45,26 @@
     margin-top: 184px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.page404__button:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 400px) {
+    .page404__title {
+        margin-top: 329px;  
+        font-size: 80px;
+        line-height: 97px;
+    }
+
+    .page404__button {
+        margin-bottom: 30px;
+        margin-top: 284px;
+    }
+
+    .page404__subtitle {
+        font-size: 12px;
+    }
 }

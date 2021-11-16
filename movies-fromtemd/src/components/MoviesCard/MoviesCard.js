@@ -3,7 +3,7 @@ import './MoviesCard.css';
 function MoviesCard(props) {
   return (
     <div className="film">
-        <img className="film__poster" src={props.poster} />
+        <img alt="Обложка фильма" className="film__poster" src={props.poster} />
         <div className="film__block">
             <h2 className="film__name">{props.name}</h2>
 
