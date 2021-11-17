@@ -115,9 +115,18 @@
 
     .register {
         width: 260px;
+        align-items: center;
     }
     .register__logo{
         margin-top: 56px;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+
+    .register {
+        align-items: left;
     }
 
 }
