@@ -39,9 +39,15 @@
 
 }
 
+.navigation__link_type_burger:hover {
+    text-decoration: underline;
+
+}
+
+
 .navigation__link:hover {
     opacity: .6;
-    text-decoration: underline;
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -51,7 +57,3 @@
     }
 }
 
-@media screen and (min-width: 769px) {
-
-
-}
