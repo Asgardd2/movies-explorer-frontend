@@ -2,7 +2,7 @@
     width: 396px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
 }
 
 .login__form {
@@ -126,7 +126,17 @@
 
 @media screen and (max-width: 400px) {
    .login__title {
-       text-align: center;
+       text-align: left;
    }
+   .login {
+    align-items: center;
+}
     
+}
+@media screen and (min-width: 400px) {
+
+    .login {
+        align-items: left;
+    }
+
 }
