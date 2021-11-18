@@ -1,4 +1,4 @@
-import accountLogo from "../../images/account-icon.png";
+import accountLogo from "../../images/account-icon.svg";
 
 import { Link } from "react-router-dom";
 
