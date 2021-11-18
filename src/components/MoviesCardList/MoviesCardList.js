@@ -27,7 +27,8 @@ function MoviesCardList(props) {
            duration="1ч 47м"
            type={props.type}
            />
-            <MoviesCard
+          
+           <MoviesCard
            poster={Film2}
            name="Киноальманах «100 лет дизайна»"
            duration="1ч 47м"

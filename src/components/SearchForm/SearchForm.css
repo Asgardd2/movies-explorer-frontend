@@ -29,15 +29,12 @@
     min-height: 44px;
     outline-width: 0;
     border: 0; 
-    background-image: url(../../images/find-button.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 3px 0 3px 10px;
     padding: 0;
 
 }
 
-.search__movies {
+.search__button-logo {
 
 }
 
