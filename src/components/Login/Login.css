@@ -1,0 +1,142 @@
+.login {
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__signup {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.login__input {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    outline: none;
+    border-style: none;
+    max-width: 410px;
+    padding: 0;
+    background-color: #F9F9F9;
+    padding: 15px;
+}
+
+.login__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.login__subtitle {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #A0A0A0;
+    margin-top: 20px;
+
+}
+
+.login__error {
+    color:red;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.login__login-button {
+    background-color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin-top: 179px;
+    color: #FFFFFF;
+    max-width: 396px;
+    padding: 13px 0 15px 0;
+}
+
+.login__signup-question {
+    font-size: 14px;
+    line-height: 17px;
+    color: #A0A0A0;
+    margin: 0 5px 0 0;
+    font-weight: 400;
+}
+
+.login__link {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.login__link:hover {
+    opacity: .6;
+}
+
+
+
+.login__logo-link {
+
+}
+
+.login__logo-link:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 768px) {
+    .login__logo{
+        margin-top: 232px;
+    }
+    .login__signup {
+        margin: 16px 0 232px 0;
+    }
+    
+}
+  
+  @media screen and (min-width: 769px) {
+
+    .login__logo{
+        margin-top: 70px;
+    }
+        .login__signup {
+        margin: 16px 0 0 0;
+    }
+  } 
+
+  @media screen and (max-width: 768px) {
+    .login__logo{
+        margin-top: 56px;
+    }
+    .login__signup {
+        margin: 16px 0 232px 0;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+   .login__title {
+       text-align: left;
+   }
+   .login {
+    align-items: center;
+}
+    
+}
+@media screen and (min-width: 400px) {
+
+    .login {
+        align-items: left;
+    }
+
+}

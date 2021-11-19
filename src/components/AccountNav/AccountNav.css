@@ -1,0 +1,62 @@
+.accountNav__account {
+    margin: 21px 70px 21px 0;
+    flex-direction: row;
+    border-radius: 50px;
+    border:2px solid rgba(170,170,170,.2);
+    width: 100px;
+    height: 32px;
+
+
+}
+
+.accountNav__account_type_burger {
+    flex-direction: row;
+    border-radius: 50px;
+    border:2px solid rgba(170,170,170,.2);
+    display: flex;
+    width: 100px;
+    height: 32px;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+
+
+
+.accountNav__account_type_burger:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.accountNav__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 8px 7px 8px 12px;
+    color: #000000;
+}
+
+.accountNav__link:hover {
+    opacity: .6;
+}
+
+.accountNav__logo {
+    margin: 9px 0 9px 12px;
+    width: 12px;
+    height: 14px;
+} 
+
+@media screen and (max-width: 768px) {
+    .accountNav__account {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .accountNav__account {
+        display: flex;
+    }
+    .accountNav__link {
+        margin: auto;
+    }
+}

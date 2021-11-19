@@ -1,0 +1,164 @@
+.header {
+    
+    max-width: 1280px;
+    min-height: 74px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_type_main {
+    background-color: #F3C1F8;
+}
+
+.header_type_movies {
+    background-color: #FFFFFF;
+}
+
+.header__logo {
+    height: 38px;
+    width: 38px;
+    
+}
+
+
+
+.header__logo-link:hover {
+    opacity: .6;
+}
+
+
+.auth__panel {
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+
+
+
+.auth__button {
+    width: 76px;
+    height: 32px;
+    margin: auto 0 auto 0;
+    background-color: #000000;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.auth__link {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+    margin: auto 30px auto 0;
+}
+
+.auth__link:hover {
+    opacity: .6;
+}
+
+
+
+.header__block {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.header__account {
+    margin: 21px 70px 21px 0;
+    flex-direction: row;
+    border-radius: 50px;
+    border:2px solid rgba(170,170,170,.2);
+}
+
+
+.header__account-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 8px 7px 8px 12px;
+    color: #000000;
+}
+
+.header__account-link:hover {
+    opacity: .6;
+}
+
+.auth__button:hover {
+    opacity: .6;
+}
+
+.header__account-logo {
+    margin: 9px 0 9px 12px;
+    width: 12px;
+    height: 14px;
+} 
+
+
+
+@media screen and (max-width: 768px) {
+    .header__account {
+        display: none;
+    }
+    .header__burgmenu {
+        display: flex;
+        margin: 21px 30px 21px 0;
+    }
+    .header__logo-link {
+        margin: auto 0 auto 30px;
+    }
+    .header__film-types {
+        display: none;
+    }
+    .auth__panel {
+        margin: 0 50px 0 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .header__burgmenu {
+        display: none;
+    }
+    .header__account {
+        display: flex;
+    }
+    .header__logo-link {
+        margin: auto 0 auto 70px;
+    }
+    .auth__panel {
+        margin: 0 70px 0 0;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .auth__panel {
+        margin: 0 14px 0 0;
+    }
+    .header__logo-link {
+        margin: auto 0 auto 14px;
+    }
+
+    .auth__link {
+        font-size: 10px;
+        margin: auto 26px auto 0
+    }
+    .auth__button {
+        font-size: 10px;
+    }
+
+
+}
